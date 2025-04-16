@@ -27,7 +27,15 @@ small-card__description{
   justify-content: center;
   align-items: center;
   width: 10px;
+  padding-left: 30px;
 }
+
+p{
+  padding-left: 30px;
+  text-align: justify;
+}
+
+
 
 .container__small-card__separator{
   margin-top: 10px;

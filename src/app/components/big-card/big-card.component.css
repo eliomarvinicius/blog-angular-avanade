@@ -21,7 +21,13 @@
 }
 
 .big-card__description > p > a{
-    color:white
+    color:white;
+}
+
+.big-card__description > p {
+  color:white;
+  text-align: justify;
+  padding-right: 20px;
 }
 
 .big-card_photo > img {
