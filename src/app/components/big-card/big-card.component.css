@@ -12,7 +12,7 @@
 
 .big-card__title > h1{
   margin-top: 15px;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .big-card__description{
@@ -21,7 +21,7 @@
 }
 
 .big-card__description > p > a{
-    color:gray
+    color:white
 }
 
 .big-card_photo > img {

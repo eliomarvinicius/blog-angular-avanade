@@ -1,47 +1,70 @@
 <header>
+
+  <button class="alter-tema" onclick="document.body.classList.toggle('dark-mode')"> Alternar Tema</button>
 <app-menu-bar></app-menu-bar>
 </header>
-<app-menu-title menuTitle="Bit a Bit" ></app-menu-title>
+<app-menu-title menuTitle="Lio Tech" ></app-menu-title>
 
 <section class="card" data-aos="fade-down">
-  <h1>Oi, sou Eliomar</h1>
-  <h2>Desenvolvedor </h2>
+
+  <app-hero-card
+  title="Bem-vindo ao meu blog de tecnologia!"
+  description="Compartilhando minhas ideias e experiências com você"
+  imageUrl="https://img.freepik.com/fotos-premium/o-robo-e-visto-de-pe-e-dando-o-polegar-para-cima_410516-19183.jpg">
+</app-hero-card>
+  
+
+
 </section>
 
 <div class="container__articles">
   <div class="articles__main">
       <app-big-card
-      photoCover="https://a.espncdn.com/photo/2019/1230/r647312_1280x720_16-9.jpg"
+      photoCover="https://geartechbr.com.br/wp-content/uploads/2023/08/O-que-e-Inteligencia-Artificial-e-qual-e-sua-importancia-para-a-industria.png"
       cardTitle="O futuro da inteligencia artificial"
-      cardDescription="Esses dois jogadores marcaram época no futebol, mas para você, quem é o melhor?"
+      cardDescription="A inteligência artificial está moldando o futuro da tecnologia de forma rápida e impactante. De assistentes virtuais a carros autônomos, a IA está cada vez mais presente no nosso dia a dia. Nos próximos anos, espera-se que ela evolua ainda mais, tornando-se capaz de tomar decisões mais complexas, entender emoções humanas e colaborar lado a lado com profissionais em diversas áreas."
       ></app-big-card>
   </div>
   <div class="articles__others">
       <app-small-card
-      photoCover="https://www.gaveanews.com/wp-content/uploads/Neymar-em-acao-com-a-camisa-do-Santos-em-2025.jpg"
-      cardTitle="Neymar no Santos, um novo reinado?"
+      photoCover="https://img.odcdn.com.br/wp-content/uploads/2021/08/shutterstock_652948648.jpg"
+      cardTitle="A computação quantica"
+      cardDescription="A computação quântica promete revolucionar o processamento de dados ao usar os princípios da mecânica quântica para criar computadores incrivelmente poderosos. Diferente dos computadores tradicionais, que trabalham com bits (0 e 1), os computadores quânticos usam qubits, que podem representar múltiplos estados ao mesmo tempo."
       ></app-small-card>
 
       <app-small-card
-      photoCover="https://cdn.arede.info/img/cover/560000/alhilal-jesus_00567127_0_202504032255.webp?xid=1991357"
-      cardTitle="Será Jorge Jesus o novo técnico da seleção brasileira?"
+      photoCover="https://miro.medium.com/v2/resize:fit:850/1*KHoG7TZROBiJ_RQ8rGLWUQ.jpeg"
+      cardTitle="Introdução à Programação em Java"
+      cardDescription="Java é uma das linguagens de programação mais populares e utilizadas no mundo da tecnologia. Criada em 1995 pela Sun Microsystems, ela se destaca por ser orientada a objetos, multiplataforma e extremamente robusta. Com o conceito “escreva uma vez, execute em qualquer lugar”, Java permite que aplicações rodem em diferentes sistemas operacionais sem precisar de alterações no código."
       ></app-small-card>
 
       <app-small-card
-      photoCover="https://www.fcbarcelona.com/photo-resources/2024/10/29/19b1eba6-64a3-4f59-9538-7d20ce0c2985/_GP22421.jpg?width=1200&height=750"
-      cardTitle="O trio do momento que novamente surge no Barcelona"
+      photoCover="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0uCD27xjHhhEIUvSg_pqVP-u3yLaS_vArJg&s"
+      cardTitle="As 5 ferramentas essenciais para desenvolvedores"
+      cardDescription="Para quem está começando ou já vive o mundo da programação, contar com as ferramentas certas faz toda a diferença. Aqui estão 5 essenciais no dia a dia de qualquer dev:
+
+      Visual Studio Code (VS Code) – Um dos editores de código mais populares, leve, com suporte a múltiplas linguagens e uma vasta gama de extensões.
+      
+      Git e GitHub – Controle de versão é fundamental. Com Git e GitHub, é possível salvar versões do seu projeto, colaborar em equipe e manter seu código seguro.
+      
+      Postman – Para testar e documentar APIs com facilidade. Muito útil para back-end e integração de sistemas.
+      
+      Docker – Permite criar ambientes isolados e reproduzíveis, facilitando testes e deploy de aplicações.
+      
+      Figma – Ferramenta de design que ajuda a visualizar interfaces antes mesmo de codar. Ideal para devs que trabalham com front-end."
       ></app-small-card>
+      
   </div>
   
 </div>
 
 
-<button onclick="document.body.classList.toggle('dark-mode')">🌙 Alternar Tema</button>
+
 
 
 <section class="card" data-aos="fade-in" style="text-align:center;">
   <blockquote style="font-style: italic; color: #ffffff;">
-    "Tem que colocar o coração na ponta da chuteira" – Galvão Bueno
+    "A tecnologia não é nada. O importante é que você tenha fé nas pessoas — que elas são boas e inteligentes — e se você lhes der ferramentas, elas farão coisas maravilhosas com elas." – Steve Jobs
   </blockquote>
 </section>
 
