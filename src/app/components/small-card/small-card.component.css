@@ -1,5 +1,5 @@
 .container__small-card{
-  width: 600px;
+  width: 650px;
   margin-bottom: 10px;
 }
 
@@ -20,14 +20,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-left: 5%;
+  
 }
+
+ 
 
 small-card__description{
   display: flex;
   justify-content: center;
   align-items: center;
   width: 10px;
-  padding-left: 30px;
+ 
+}
+
+h1{
+  
 }
 
 p{

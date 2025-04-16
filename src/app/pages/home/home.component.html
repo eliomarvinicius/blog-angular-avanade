@@ -1,30 +1,21 @@
-<header>
 
-  <button class="alter-tema" onclick="document.body.classList.toggle('dark-mode')"> Alternar Tema</button>
-<app-menu-bar></app-menu-bar>
-</header>
-<app-menu-title menuTitle="ELio Tech" ></app-menu-title>
+<app-menu-title menuTitle="Tech Bit" ></app-menu-title>
 
 <section class="card" data-aos="fade-down">
 
-  <app-hero-card
-  title="Bem-vindo ao meu blog de tecnologia!"
-  description="Compartilhando minhas ideias e experiências com você"
-  imageUrl="https://img.freepik.com/fotos-premium/o-robo-e-visto-de-pe-e-dando-o-polegar-para-cima_410516-19183.jpg">
-</app-hero-card>
-  
-
+  <app-hero-card></app-hero-card>
 
 </section>
 
 <div class="container__articles">
   <div class="articles__main">
-      <app-big-card
-      photoCover="https://geartechbr.com.br/wp-content/uploads/2023/08/O-que-e-Inteligencia-Artificial-e-qual-e-sua-importancia-para-a-industria.png"
+      <app-big-card photoCover="https://geartechbr.com.br/wp-content/uploads/2023/08/O-que-e-Inteligencia-Artificial-e-qual-e-sua-importancia-para-a-industria.png"
+
       cardTitle="O futuro da inteligencia artificial"
-      cardDescription="A inteligência artificial está moldando o futuro da tecnologia de forma rápida e impactante. De assistentes virtuais a carros autônomos, a IA está cada vez mais presente no nosso dia a dia. Nos próximos anos, espera-se que ela evolua ainda mais, tornando-se capaz de tomar decisões mais complexas, entender emoções humanas e colaborar lado a lado com profissionais em diversas áreas."
-      ></app-big-card>
+
+      cardDescription="A inteligência artificial está moldando o futuro da tecnologia de forma rápida e impactante. De assistentes virtuais a carros autônomos, a IA está cada vez mais presente no nosso dia a dia. Nos próximos anos, espera-se que ela evolua ainda mais, tornando-se capaz de tomar decisões mais complexas, entender emoções humanas e colaborar lado a lado com profissionais em diversas áreas."> </app-big-card>
   </div>
+  
   <div class="articles__others">
       <app-small-card
       photoCover="https://img.odcdn.com.br/wp-content/uploads/2021/08/shutterstock_652948648.jpg"
@@ -40,7 +31,7 @@
 
       <app-small-card
       photoCover="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0uCD27xjHhhEIUvSg_pqVP-u3yLaS_vArJg&s"
-      cardTitle="As 5 ferramentas essenciais para desenvolvedores"
+      cardTitle="As 5 ferramentas essenciais para Desenvolvedores"
       cardDescription="Para quem está começando ou já vive o mundo da programação, contar com as ferramentas certas faz toda a diferença. Aqui estão 5 essenciais no dia a dia de qualquer dev:
 
       Visual Studio Code (VS Code) – Um dos editores de código mais populares, leve, com suporte a múltiplas linguagens e uma vasta gama de extensões.
@@ -71,4 +62,10 @@
 <footer style="text-align: center; padding: 2rem; font-size: 0.9rem;">
   <p>© 2025 - Feito com 💻 e ☕ por Eliomar Vinicus</p>
   <p><a href="mailto:seu@email.com">Visite minhas redes sociais</a></p>
+  
 </footer>
+
+<button onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
+        style="position: fixed; bottom: 2rem; right: 2rem; background: #ffffff; color: white; border: none; border-radius: 50%; padding: 1rem;">
+ ⬆️
+</button>

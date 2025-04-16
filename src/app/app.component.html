@@ -1,6 +1,8 @@
-<app-home></app-home>
-<button onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
-        style="position: fixed; bottom: 2rem; right: 2rem; background: #ffffff; color: white; border: none; border-radius: 50%; padding: 1rem;">
- ⬆️
-</button>
+<header>
+
+        <button class="alter-tema" onclick="document.body.classList.toggle('dark-mode')"> Alternar Tema</button>
+      
+      <app-menu-bar></app-menu-bar>
+      </header>
+
 <router-outlet></router-outlet>
