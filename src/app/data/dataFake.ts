@@ -1,27 +1,27 @@
 export const dataFake = [
     {
-        "id": 1,
-        "photo": "aaa",
-        "title": "saiu novo filme",
-        "description": "ola"
+        "id": "1",
+        "title": "O futuro da inteligencia artificial",
+        "description": "A inteligência artificial está moldando o futuro da tecnologia de forma rápida e impactante. De assistentes virtuais a carros autônomos, a IA está cada vez mais presente no nosso dia a dia. Nos próximos anos, espera-se que ela evolua ainda mais, tornando-se capaz de tomar decisões mais complexas, entender emoções humanas e colaborar lado a lado com profissionais em diversas áreas. \n  Além de simplificar tarefas rotineiras, a IA tem o potencial de transformar setores inteiros, como a medicina, com diagnósticos mais precisos, ou a educação, com plataformas personalizadas de ensino. Na indústria, algoritmos inteligentes já estão otimizando linhas de produção e prevendo falhas com base em dados históricos. No mercado financeiro, a IA analisa grandes volumes de informação em segundos, auxiliando na tomada de decisões estratégicas.  \n Contudo, essa revolução tecnológica também traz grandes desafios. Ética, privacidade de dados e o impacto no mercado de trabalho são tópicos que exigem atenção e regulamentações claras. É fundamental que o desenvolvimento da inteligência artificial seja acompanhado de responsabilidade e transparência. \n O futuro da IA não é apenas promissor — é inevitável. E quanto mais nos prepararmos para compreendê-la e utilizá-la com sabedoria, maiores serão os benefícios que poderemos extrair dessa poderosa ferramenta.",
+        "photoCover": "https://geartechbr.com.br/wp-content/uploads/2023/08/O-que-e-Inteligencia-Artificial-e-qual-e-sua-importancia-para-a-industria.png"
     },
     {
-        "id": 2,
-        "photo": "aaa",
-        "title": "saiu novo filme",
-        "description": "ola"
+        "id": "2",
+        "title": "A computação quantica",
+        "description": "A computação quântica promete revolucionar o processamento de dados ao usar os princípios da mecânica quântica para criar computadores incrivelmente poderosos. Diferente dos computadores tradicionais, que trabalham com bits (0 e 1), os computadores quânticos usam qubits, que podem representar múltiplos estados ao mesmo tempo graças à superposição e ao entrelaçamento quântico.  Essa capacidade permite que os computadores quânticos realizem cálculos extremamente complexos em uma fração do tempo que levaria um computador convencional. Problemas que hoje levariam anos para serem resolvidos podem ser solucionados em segundos, o que abre portas para avanços em diversas áreas — da criptoanálise e pesquisas farmacêuticas, até simulações moleculares, inteligência artificial e otimização de sistemas.",
+        "photoCover": "https://img.odcdn.com.br/wp-content/uploads/2021/08/shutterstock_652948648.jpg"
     },
     {
-        "id": 3,
-        "photo": "aaa",
-        "title": "saiu novo filme",
-        "description": "ola"
+        "id": "3",
+        "title": "Introdução à Programação em Java",
+        "description": "Java é uma das linguagens de programação mais populares e utilizadas no mundo da tecnologia. Criada em 1995 pela Sun Microsystems, ela se destaca por ser orientada a objetos, multiplataforma e extremamente robusta. Com o conceito “escreva uma vez, execute em qualquer lugar”, Java permite que aplicações rodem em diferentes sistemas operacionais sem precisar de alterações no código.  Esse princípio é possível graças à Java Virtual Machine (JVM), que atua como uma camada intermediária entre o código Java e o sistema operacional. \n Isso garante não só a portabilidade, mas também maior segurança e estabilidade na execução dos programas. Java é amplamente usado em ambientes corporativos, aplicações web, sistemas bancários, softwares de gestão empresarial e no desenvolvimento de aplicativos Android. \n A linguagem também se destaca pela sua rica biblioteca padrão e pela grande quantidade de frameworks disponíveis no mercado, como Spring Boot, Hibernate, JSF, entre outros, que facilitam o desenvolvimento de aplicações complexas com maior produtividade. Sua sintaxe, embora mais verbosa que outras linguagens modernas, é clara e contribui para um código mais legível e estruturado.",
+        "photoCover": "https://miro.medium.com/v2/resize:fit:850/1*KHoG7TZROBiJ_RQ8rGLWUQ.jpeg"
     },
     {
-        "id": 4,
-        "photo": "aaa",
-        "title": "saiu novo filme",
-        "description": "ola"
+        "id": "4",
+        "title": "As 5 ferramentas essenciais para Desenvolvedores",
+        "description": "Para quem está começando ou já vive o mundo da programação, contar com as ferramentas certas faz toda a diferença. Aqui estão 5 essenciais no dia a dia de qualquer dev:                                                          Visual Studio Code (VS Code) – Um dos editores de código mais populares, leve, com suporte a múltiplas linguagens e uma vasta gama de extensões. \n                                                                                                           Git e GitHub – Controle de versão é fundamental. Com Git e GitHub, é possível salvar versões do seu projeto, colaborar em equipe e manter seu código seguro.  \n                                                                                          Postman – Para testar e documentar APIs com facilidade. Muito útil para back-end e integração de sistemas.     \n               Docker – Permite criar ambientes isolados e reproduzíveis, facilitando testes e deploy de aplicações.      \n                Figma – Ferramenta de design que ajuda a visualizar interfaces antes mesmo de codar. Ideal para devs que trabalham com front-end.  \n                                                                                                               Essas ferramentas não apenas otimizam o fluxo de trabalho, como também tornam o processo de desenvolvimento mais profissional e colaborativo. O VS Code, por exemplo, oferece uma experiência fluida com funcionalidades como IntelliSense, integração com Git e terminal embutido — tudo em um só lugar.   \n                                                                                                                        Já o Git e o GitHub são indispensáveis em qualquer projeto moderno, permitindo que o desenvolvedor acompanhe o histórico de mudanças, trabalhe em diferentes versões de um código simultaneamente e colabore com outras pessoas ao redor do mundo. \n         O Postman acelera o desenvolvimento de APIs, oferecendo recursos como coleções, testes automatizados e monitoramento — ideal para garantir que tudo esteja funcionando corretamente antes de colocar no ar.     \n                                                                                                                               Docker se destaca por criar ambientes de desenvolvimento padronizados, o que é uma grande vantagem em equipes e empresas onde cada dev pode ter um sistema diferente. E para quem trabalha com interfaces, o Figma permite desenhar e validar a experiência do usuário antes mesmo da primeira linha de código. \n                                                                        No final das contas, dominar essas ferramentas faz com que você progrida mais rápido, entregue com mais qualidade e esteja mais preparado para os desafios do mundo do desenvolvimento.",
+        "photoCover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0uCD27xjHhhEIUvSg_pqVP-u3yLaS_vArJg&s"
     },
 
 ]
