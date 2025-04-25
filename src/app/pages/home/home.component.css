@@ -5,5 +5,11 @@
   justify-content: center;
 }
 
-
+@media (max-width: 1129px) {
+  .container__articles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
 

@@ -4,7 +4,7 @@ import { Component, Input } from '@angular/core';
   selector: 'app-hero-card',
   imports: [],
   templateUrl: './hero-card.component.html',
-  styleUrl: './hero-card.component.css'
+  styleUrls: ['./hero-card.component.css', './hero-card.responsive.component.css']
 })
 export class HeroCardComponent {
   

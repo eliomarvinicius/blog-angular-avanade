@@ -4,7 +4,7 @@ import { Component, Input } from '@angular/core';
   selector: 'app-menu-title',
   imports: [],
   templateUrl: './menu-title.component.html',
-  styleUrls: ['./menu-title.component.css','menu-title.responsivo.component.css' ]
+  styleUrls: ['./menu-title.component.css','menu-title.responsive.component.css' ]
 })
 export class MenuTitleComponent {
 

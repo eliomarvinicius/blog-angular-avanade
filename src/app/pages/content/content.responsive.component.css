@@ -1,0 +1,27 @@
+
+
+@media (max-width:1129px) {
+    .content__cover > img{
+        width: 400px;
+        
+        height: 300px;
+        border-radius: 5px;
+        border: 5px solid gray;
+    
+    }
+
+    .content__title{
+        display: flex;
+        text-align: center;
+    }
+
+    .content__title > h1{
+        width: 400px;
+    }
+
+    .content__description > p{
+
+        width: 350px;
+        color: rgb(180, 180, 180);
+}
+}
